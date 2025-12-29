@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * - Stock reduction
  * - Change return
  */
-public class VendingMachineTests {
+public class VendingMachine {
 
     private VendingMachineImpl machine;
     private Product snack;
