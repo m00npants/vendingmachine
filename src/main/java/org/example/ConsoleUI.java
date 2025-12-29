@@ -12,6 +12,9 @@ public class ConsoleUI {
         this.machine = machine;
     }
 
+    /**
+     * Starts the main menu loop.
+     */
     public void start() {
         while (true) {
             System.out.println("\n--- Vending Machine ---");

@@ -1,4 +1,7 @@
 package org.example;
+/**
+ * Represents a beverage product such as soda
+ */
 
 public class Beverage extends Product {
     public Beverage(int id, String name, int price, int quantity) {

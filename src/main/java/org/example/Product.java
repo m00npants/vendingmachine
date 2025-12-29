@@ -25,6 +25,10 @@ public abstract class Product {
     public int getQuantity() {
         return quantity;
     }
+    /**
+     * Reduces the product quantity by 1.
+     * Called only after a successful purchase.
+     */
     public void reduceQuantity() {
         if (quantity > 0) {
             quantity--;
