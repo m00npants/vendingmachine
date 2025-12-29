@@ -7,7 +7,7 @@ public class Fruit extends Product {
 
     @Override
     public String getDescription() {
-        return "Fruit: " + getName();
+        return "Fruit: " + getName() + ", Price: " + getPrice() + ", Quantity: " + getQuantity();
     }
 }
 
